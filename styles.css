@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+}
+
+.hero_page {
+  background-color: #374558;
+  color: white;
+  height: auto;
+  padding: 20px 120px 0px;
+}  
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0px;
+
+}
+
+.hero_page_down {
+  padding: 125px 0px;
+}
+
