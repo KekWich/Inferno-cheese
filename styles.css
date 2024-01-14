@@ -3,10 +3,10 @@ body {
 }
 
 .hero_page {
-  background-color: #374558;
-  color: white;
+  background-color: #2b3747;
+  color: #e5e7eb;
   height: auto;
-  padding: 20px 120px 0px;
+  padding: 20px 350px 0px;
 }  
 
 h1 {
@@ -16,7 +16,46 @@ h1 {
 
 }
 
+.header {
+  display: flex;
+  justify-content: flex-end;
+  color: #e5e7eb;
+}
+
+.header_logo {
+  flex: 1;  
+}
+
+.header_pages {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
 .hero_page_down {
   padding: 125px 0px;
+  display: flex;
+  margin: 0px;
+}
+
+.hero_page_down_left {
+  flex: 1;
+}
+
+p {
+  margin: 0px 0px 10px;
+}
+
+.hero_page_down_picture {
+  background-color: #919191;
+  flex: 1;
+  text-align: center;
+  vertical-align: middle;
 }
 
