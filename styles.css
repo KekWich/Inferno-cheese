@@ -97,7 +97,7 @@ p {
 }
 
 .second_page {
-  padding: 0px 350px;
+  padding: 0px 350px 80px;
 }
 
 h3 {
@@ -117,7 +117,7 @@ h3 {
 }
 
 .box {
-  border: 3px solid rgb(114, 114, 255);
+  border: 4px solid rgb(114, 114, 255);
   border-radius: 10px;
   width: 150px;
   height: 150px;
@@ -128,4 +128,25 @@ h3 {
   height: auto;
   margin-top: 10px;
 }
+
+.third_page {
+  background-color: #dad4d4;
+  padding: 180px 350px;
+}
+
+.quote_text p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 50;
+  color: rgb(79, 70, 70);
+}
+
+.quote_author {
+  text-align: end;
+  font-size: 28px;
+  color: rgb(56, 52, 52);
+  font-weight: 600;
+  padding-right: 50px;
+}
+
 
