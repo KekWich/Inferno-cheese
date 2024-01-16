@@ -82,16 +82,21 @@ p {
 }
 
 .button {
-  background-color: rgb(114, 114, 255);
-  color: white;
-  border: none;
-  border-color: rgb(114, 114, 255);
   border-radius: 5px;
   padding: 3px;
+  background-color: rgb(114, 114, 255);
+}
+
+.button_top {
+  border: none;
+  background-color: rgb(114, 114, 255);
+  border-color: rgb(114, 114, 255);
+  color: white;
   width: 80px;
 }
 
-.button:hover {
+
+.button_top:hover {
   background-color: rgb(60, 60, 192);
   cursor: pointer;
 }
@@ -131,7 +136,7 @@ h3 {
 
 .third_page {
   background-color: #dad4d4;
-  padding: 180px 350px;
+  padding: 160px 350px;
 }
 
 .quote_text p {
@@ -149,4 +154,52 @@ h3 {
   padding-right: 50px;
 }
 
+.fourth_page {
+  padding: 60px 120px;
+  background-color: rgb(114, 114, 255);
+  margin: 110px 350px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
 
+.call_to_action_header {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.call_to_action_paragraph {
+  margin: 0px;
+}
+
+.button_bottom {
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  width: 120px;
+  height: 35px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.button_bottom:hover {
+  background-color: rgb(112, 112, 210);
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #2b3747;
+  padding: 44px 350px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+footer p {
+  margin: 0px;
+}
